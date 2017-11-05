@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F64F9291FADE93A004082DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F9281FADE93A004082DC /* AppDelegate.m */; };
+		8F64F92C1FADE93A004082DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F92B1FADE93A004082DC /* ViewController.m */; };
+		8F64F92F1FADE93A004082DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F64F92D1FADE93A004082DC /* Main.storyboard */; };
+		8F64F9311FADE93A004082DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F64F9301FADE93A004082DC /* Assets.xcassets */; };
+		8F64F9341FADE93A004082DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F64F9321FADE93A004082DC /* LaunchScreen.storyboard */; };
+		8F64F9371FADE93A004082DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F9361FADE93A004082DC /* main.m */; };
+		8F64F9411FADE93A004082DC /* Simple_DiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F9401FADE93A004082DC /* Simple_DiceTests.m */; };
+		8F64F94C1FADE93A004082DC /* Simple_DiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F94B1FADE93A004082DC /* Simple_DiceUITests.m */; };
+		8F64F95B1FADEC8B004082DC /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F95A1FADEC8B004082DC /* Dice.m */; };
+		8F64F98B1FAE09EF004082DC /* DiceTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F64F98A1FAE09EF004082DC /* DiceTypeTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F64F93D1FADE93A004082DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F64F91C1FADE93A004082DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F64F9231FADE93A004082DC;
+			remoteInfo = "Simple Dice";
+		};
+		8F64F9481FADE93A004082DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F64F91C1FADE93A004082DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F64F9231FADE93A004082DC;
+			remoteInfo = "Simple Dice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F64F9241FADE93A004082DC /* Simple Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F64F9271FADE93A004082DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F64F9281FADE93A004082DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F64F92A1FADE93A004082DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F64F92B1FADE93A004082DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F64F92E1FADE93A004082DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F64F9301FADE93A004082DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F64F9331FADE93A004082DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F64F9351FADE93A004082DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F64F9361FADE93A004082DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F64F93C1FADE93A004082DC /* Simple DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple DiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F64F9401FADE93A004082DC /* Simple_DiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_DiceTests.m; sourceTree = "<group>"; };
+		8F64F9421FADE93A004082DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F64F9471FADE93A004082DC /* Simple DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple DiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F64F94B1FADE93A004082DC /* Simple_DiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_DiceUITests.m; sourceTree = "<group>"; };
+		8F64F94D1FADE93A004082DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F64F9591FADEC8B004082DC /* Dice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		8F64F95A1FADEC8B004082DC /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		8F64F9891FAE09EF004082DC /* DiceTypeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiceTypeTableViewController.h; sourceTree = "<group>"; };
+		8F64F98A1FAE09EF004082DC /* DiceTypeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceTypeTableViewController.m; sourceTree = "<group>"; };
+		8F64F98C1FAE1911004082DC /* Simple Dice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Simple Dice.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F64F9211FADE93A004082DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F64F9391FADE93A004082DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F64F9441FADE93A004082DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F64F91B1FADE93A004082DC = {
+			isa = PBXGroup;
+			children = (
+				8F64F9261FADE93A004082DC /* Simple Dice */,
+				8F64F93F1FADE93A004082DC /* Simple DiceTests */,
+				8F64F94A1FADE93A004082DC /* Simple DiceUITests */,
+				8F64F9251FADE93A004082DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F64F9251FADE93A004082DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F64F9241FADE93A004082DC /* Simple Dice.app */,
+				8F64F93C1FADE93A004082DC /* Simple DiceTests.xctest */,
+				8F64F9471FADE93A004082DC /* Simple DiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F64F9261FADE93A004082DC /* Simple Dice */ = {
+			isa = PBXGroup;
+			children = (
+				8F64F98C1FAE1911004082DC /* Simple Dice.entitlements */,
+				8F64F9271FADE93A004082DC /* AppDelegate.h */,
+				8F64F9281FADE93A004082DC /* AppDelegate.m */,
+				8F64F92A1FADE93A004082DC /* ViewController.h */,
+				8F64F92B1FADE93A004082DC /* ViewController.m */,
+				8F64F9891FAE09EF004082DC /* DiceTypeTableViewController.h */,
+				8F64F98A1FAE09EF004082DC /* DiceTypeTableViewController.m */,
+				8F64F9591FADEC8B004082DC /* Dice.h */,
+				8F64F95A1FADEC8B004082DC /* Dice.m */,
+				8F64F92D1FADE93A004082DC /* Main.storyboard */,
+				8F64F9301FADE93A004082DC /* Assets.xcassets */,
+				8F64F9321FADE93A004082DC /* LaunchScreen.storyboard */,
+				8F64F9351FADE93A004082DC /* Info.plist */,
+				8F64F9361FADE93A004082DC /* main.m */,
+			);
+			path = "Simple Dice";
+			sourceTree = "<group>";
+		};
+		8F64F93F1FADE93A004082DC /* Simple DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F64F9401FADE93A004082DC /* Simple_DiceTests.m */,
+				8F64F9421FADE93A004082DC /* Info.plist */,
+			);
+			path = "Simple DiceTests";
+			sourceTree = "<group>";
+		};
+		8F64F94A1FADE93A004082DC /* Simple DiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F64F94B1FADE93A004082DC /* Simple_DiceUITests.m */,
+				8F64F94D1FADE93A004082DC /* Info.plist */,
+			);
+			path = "Simple DiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F64F9231FADE93A004082DC /* Simple Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F64F9501FADE93A004082DC /* Build configuration list for PBXNativeTarget "Simple Dice" */;
+			buildPhases = (
+				8F64F9201FADE93A004082DC /* Sources */,
+				8F64F9211FADE93A004082DC /* Frameworks */,
+				8F64F9221FADE93A004082DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Dice";
+			productName = "Simple Dice";
+			productReference = 8F64F9241FADE93A004082DC /* Simple Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F64F93B1FADE93A004082DC /* Simple DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F64F9531FADE93A004082DC /* Build configuration list for PBXNativeTarget "Simple DiceTests" */;
+			buildPhases = (
+				8F64F9381FADE93A004082DC /* Sources */,
+				8F64F9391FADE93A004082DC /* Frameworks */,
+				8F64F93A1FADE93A004082DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F64F93E1FADE93A004082DC /* PBXTargetDependency */,
+			);
+			name = "Simple DiceTests";
+			productName = "Simple DiceTests";
+			productReference = 8F64F93C1FADE93A004082DC /* Simple DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F64F9461FADE93A004082DC /* Simple DiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F64F9561FADE93A004082DC /* Build configuration list for PBXNativeTarget "Simple DiceUITests" */;
+			buildPhases = (
+				8F64F9431FADE93A004082DC /* Sources */,
+				8F64F9441FADE93A004082DC /* Frameworks */,
+				8F64F9451FADE93A004082DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F64F9491FADE93A004082DC /* PBXTargetDependency */,
+			);
+			name = "Simple DiceUITests";
+			productName = "Simple DiceUITests";
+			productReference = 8F64F9471FADE93A004082DC /* Simple DiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F64F91C1FADE93A004082DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Johannes Wärn";
+				TargetAttributes = {
+					8F64F9231FADE93A004082DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					8F64F93B1FADE93A004082DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F64F9231FADE93A004082DC;
+					};
+					8F64F9461FADE93A004082DC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F64F9231FADE93A004082DC;
+					};
+				};
+			};
+			buildConfigurationList = 8F64F91F1FADE93A004082DC /* Build configuration list for PBXProject "Simple Dice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F64F91B1FADE93A004082DC;
+			productRefGroup = 8F64F9251FADE93A004082DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F64F9231FADE93A004082DC /* Simple Dice */,
+				8F64F93B1FADE93A004082DC /* Simple DiceTests */,
+				8F64F9461FADE93A004082DC /* Simple DiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F64F9221FADE93A004082DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F64F9341FADE93A004082DC /* LaunchScreen.storyboard in Resources */,
+				8F64F9311FADE93A004082DC /* Assets.xcassets in Resources */,
+				8F64F92F1FADE93A004082DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F64F93A1FADE93A004082DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F64F9451FADE93A004082DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F64F9201FADE93A004082DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F64F92C1FADE93A004082DC /* ViewController.m in Sources */,
+				8F64F9371FADE93A004082DC /* main.m in Sources */,
+				8F64F98B1FAE09EF004082DC /* DiceTypeTableViewController.m in Sources */,
+				8F64F95B1FADEC8B004082DC /* Dice.m in Sources */,
+				8F64F9291FADE93A004082DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F64F9381FADE93A004082DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F64F9411FADE93A004082DC /* Simple_DiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F64F9431FADE93A004082DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F64F94C1FADE93A004082DC /* Simple_DiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F64F93E1FADE93A004082DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F64F9231FADE93A004082DC /* Simple Dice */;
+			targetProxy = 8F64F93D1FADE93A004082DC /* PBXContainerItemProxy */;
+		};
+		8F64F9491FADE93A004082DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F64F9231FADE93A004082DC /* Simple Dice */;
+			targetProxy = 8F64F9481FADE93A004082DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F64F92D1FADE93A004082DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F64F92E1FADE93A004082DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F64F9321FADE93A004082DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F64F9331FADE93A004082DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F64F94E1FADE93A004082DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F64F94F1FADE93A004082DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F64F9511FADE93A004082DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Q384825H;
+				INFOPLIST_FILE = "Simple Dice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanneswarn.Simple-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F64F9521FADE93A004082DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Q384825H;
+				INFOPLIST_FILE = "Simple Dice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanneswarn.Simple-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F64F9541FADE93A004082DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Q384825H;
+				INFOPLIST_FILE = "Simple DiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanneswarn.Simple-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Dice.app/Simple Dice";
+			};
+			name = Debug;
+		};
+		8F64F9551FADE93A004082DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Q384825H;
+				INFOPLIST_FILE = "Simple DiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanneswarn.Simple-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Dice.app/Simple Dice";
+			};
+			name = Release;
+		};
+		8F64F9571FADE93A004082DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Q384825H;
+				INFOPLIST_FILE = "Simple DiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanneswarn.Simple-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Dice";
+			};
+			name = Debug;
+		};
+		8F64F9581FADE93A004082DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4Q384825H;
+				INFOPLIST_FILE = "Simple DiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanneswarn.Simple-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Dice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F64F91F1FADE93A004082DC /* Build configuration list for PBXProject "Simple Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F64F94E1FADE93A004082DC /* Debug */,
+				8F64F94F1FADE93A004082DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F64F9501FADE93A004082DC /* Build configuration list for PBXNativeTarget "Simple Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F64F9511FADE93A004082DC /* Debug */,
+				8F64F9521FADE93A004082DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F64F9531FADE93A004082DC /* Build configuration list for PBXNativeTarget "Simple DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F64F9541FADE93A004082DC /* Debug */,
+				8F64F9551FADE93A004082DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F64F9561FADE93A004082DC /* Build configuration list for PBXNativeTarget "Simple DiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F64F9571FADE93A004082DC /* Debug */,
+				8F64F9581FADE93A004082DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F64F91C1FADE93A004082DC /* Project object */;
+}
